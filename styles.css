@@ -1,0 +1,47 @@
+body{
+    padding-top: 1%;
+    margin: 5%;
+    background-color: aquamarine;
+    font-family: monospace;
+
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    border-radius: 50% red ;
+    padding: 5%;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+footer{
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: orangered;
+    text-align: center;
+  }
+}
+h3{
+    display: flex;
+    color: pink;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    align-items: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.main-nav{
+    border: dotted orange;
+    padding: 1%;
+}
+
