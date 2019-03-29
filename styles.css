@@ -1,23 +1,25 @@
-body{
+body {
     padding-top: 1%;
     margin: 5%;
     background-color: aquamarine;
     font-family: monospace;
 
 }
+
 h1 {
     display: flex;
     justify-content: center;
-    border-radius: 50% red ;
+    border-radius: 50% red;
     padding: 5%;
 }
 
-.search-box {
+.search {
     display: flex;
     justify-content: center;
     padding-bottom: 5%;
 }
-footer{
+
+footer {
     padding-top: 5%;
     display: flex;
     justify-content: center;
@@ -27,21 +29,26 @@ footer{
     width: 100%;
     color: orangered;
     text-align: center;
-  }
 }
-h3{
+
+h3 {
     display: flex;
-    color: pink;
+    color: yellow;
 }
-ul{
+
+ul {
     list-style-type: none;
     display: flex;
     align-items: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-.main-nav{
-    border: dotted orange;
+
+.main-nav {
+    border: 5px dashed purple;
     padding: 1%;
 }
 
+.line{
+    border: 1px
+}
