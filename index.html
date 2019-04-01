@@ -13,43 +13,44 @@
     <nav class="main-nav">
         <ul>
             <li>
-            Home
+                <a href="#"> Home </a> 
             </li>
             <li>
-                Contact
+                <a href="#"> Contact</a>
             </li>
             <li>
-                Itunes
+               <a target="blank" href="https://www.apple.com/itunes/?cid=OAS-US-DOMAINS-itunes.com"> Itunes</a>
             </li>
         </ul>
     </nav>
-    <br class="line">
-
-
-    <div class="now-playing">
-        <h3>
-            Now Playing
-        </h3>
-    </div>
-    <br class="line">
+    <br>
     <hr>
 
-    <h1>
-        Search for a song
-    </h1>
-    <div class="search">
-        <input type="text"> <button> Search </button>
-    </div>
-    <hr>
+    <div class="container">
+        <h1 class="main-title"> Utunes </h1>
+        <p class="search-title"> Search for a song</p>
+        <section class="search">
 
-    <div class="serach-results">
-        <h3> Search Results: </h3>
-        <p> This is where the search results are going to show up  </p>
-    </div>
-    <script src="main.js"></script>
+            <form class="search-form">
+                <input class="searchname" id="searchname" type="text" name="search" value="" placeholder=" Search for Artist... ">
+              <button src="search.png" name="search"  >  Search </button>
+            </form>
+
+
+        </section>
+        <hr>
+
+        <br>
+        <h3>Search results : </h3>
+        <div class="result-show">
+        </div>
+        
+        <script src="main.js"></script>
+
 </body>
 <footer>
-    <p> Juan Polanco || <a target="blank" href="https://github.com/momentum-cohort-2019-02/w7-itunes-search-juanpola"> Github</a></p>
+    <p> Juan Polanco || <a target="blank" href="https://github.com/momentum-cohort-2019-02/w7-itunes-search-juanpola">
+            Github</a></p>
 </footer>
 
 </html>
